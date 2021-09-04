@@ -78,9 +78,6 @@ class TypingSpeedTest(tk.Frame):
         self.entry.delete(0, 'end')
         self.count_down(count)
 
-    def show_timer(self):
-        pass
-
     def count_down(self, count):
         """Timer that counts to 0, then it calls check_text and disables the user's entry"""
         if count > 0:
